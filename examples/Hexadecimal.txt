@@ -1,0 +1,99 @@
+Type:1
+ID:0
+Position X:78
+Position Y:95
+Type name:HEX
+Input value:None
+Input 1 ID:0
+Input 2 ID:1
+Output ID:5
+Type:2
+ID:1
+Position X:85
+Position Y:207
+Type name:HEX
+Input value:None
+Input 1 ID:2
+Input 2 ID:12
+Output ID:4
+Type:3
+ID:2
+Position X:197
+Position Y:155
+Type name:HEX
+Input value:None
+Input 1 ID:5
+Input 2 ID:4
+Output ID:6
+Type:4
+ID:3
+Position X:330
+Position Y:160
+Type name:HEX
+Input value:None
+Input 1 ID:6
+Input 2 ID:14
+Output ID:8
+Type:5
+ID:4
+Position X:441
+Position Y:167
+Type name:HEX
+Input value:None
+Input 1 ID:8
+Input 2 ID:13
+Output ID:None
+Type:0
+ID:5
+Position X:0
+Position Y:0
+Type name:TN_INPUT
+Input value:2748.000000
+Input 1 ID:None
+Input 2 ID:None
+Output ID:0
+Type:0
+ID:6
+Position X:0
+Position Y:0
+Type name:TN_INPUT
+Input value:10.000000
+Input 1 ID:None
+Input 2 ID:None
+Output ID:1
+Type:0
+ID:7
+Position X:0
+Position Y:0
+Type name:TN_INPUT
+Input value:303.000000
+Input 1 ID:None
+Input 2 ID:None
+Output ID:2
+Type:0
+ID:13
+Position X:0
+Position Y:0
+Type name:TN_INPUT
+Input value:287.000000
+Input 1 ID:None
+Input 2 ID:None
+Output ID:12
+Type:0
+ID:14
+Position X:0
+Position Y:0
+Type name:TN_INPUT
+Input value:2.000000
+Input 1 ID:None
+Input 2 ID:None
+Output ID:13
+Type:0
+ID:15
+Position X:0
+Position Y:0
+Type name:TN_INPUT
+Input value:8.000000
+Input 1 ID:None
+Input 2 ID:None
+Output ID:14

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource>
+        <file>img/start.png</file>
+        <file>img/stop.png</file>
+        <file>img/save.png</file>
+        <file>img/load.png</file>
+        <file>img/step.png</file>
+        <file>img/clear.png</file>
+        <file>img/select.png</file>
+        <file>img/delete.png</file>
+    </qresource>
+</RCC>

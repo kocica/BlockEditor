@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <property name="leftMargin">
+     <number>1</number>
+    </property>
+    <property name="topMargin">
+     <number>1</number>
+    </property>
+    <property name="rightMargin">
+     <number>1</number>
+    </property>
+    <property name="bottomMargin">
+     <number>1</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(200,200,200);
+vertical {background-color: rgb(0,0,0);}</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAsNeeded</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAsNeeded</enum>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>602</width>
+           <height>447</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2" rowstretch="0" columnstretch="0" rowminimumheight="0" columnminimumwidth="0">
+          <property name="leftMargin">
+           <number>1</number>
+          </property>
+          <property name="topMargin">
+           <number>1</number>
+          </property>
+          <property name="rightMargin">
+           <number>1</number>
+          </property>
+          <property name="bottomMargin">
+           <number>1</number>
+          </property>
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <item row="0" column="0">
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="frame">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::AllToolBarAreas</set>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextOnly</enum>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSelect_none"/>
+   <addaction name="actionSelect_delete"/>
+   <addaction name="separator"/>
+   <addaction name="actionLabel_2"/>
+   <addaction name="separator"/>
+   <addaction name="actionSelect_add"/>
+   <addaction name="actionSelect_sub"/>
+   <addaction name="actionSelect_mul"/>
+   <addaction name="actionSelect_div"/>
+   <addaction name="actionSelect_pow"/>
+   <addaction name="separator"/>
+   <addaction name="actionLabel"/>
+   <addaction name="separator"/>
+   <addaction name="actionFloat_seleted"/>
+   <addaction name="actionInt_selected"/>
+   <addaction name="actionHex_selected"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextOnly</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLoad"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionClear"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRun"/>
+   <addaction name="actionStep"/>
+   <addaction name="actionStop"/>
+  </widget>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save the current diagram into a file</string>
+   </property>
+  </action>
+  <action name="actionLoad">
+   <property name="text">
+    <string>Load</string>
+   </property>
+   <property name="toolTip">
+    <string>Load a diagram from a file</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="text">
+    <string>Run</string>
+   </property>
+   <property name="toolTip">
+    <string>Compute all at once</string>
+   </property>
+  </action>
+  <action name="actionStep">
+   <property name="text">
+    <string>Step</string>
+   </property>
+   <property name="toolTip">
+    <string>Compute one block</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>Stop</string>
+   </property>
+   <property name="toolTip">
+    <string>Stop computation</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+   <property name="toolTip">
+    <string>Erase everything</string>
+   </property>
+  </action>
+  <action name="actionLabel">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Value</string>
+   </property>
+   <property name="toolTip">
+    <string>Select a block value type below</string>
+   </property>
+  </action>
+  <action name="actionLabel_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Block</string>
+   </property>
+   <property name="toolTip">
+    <string>Select what type of block to place below</string>
+   </property>
+  </action>
+  <actiongroup name="type_selection">
+   <action name="actionInt_selected">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Int</string>
+    </property>
+    <property name="toolTip">
+     <string>Blocks using integer (whole number) operations</string>
+    </property>
+   </action>
+   <action name="actionFloat_seleted">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Float</string>
+    </property>
+    <property name="toolTip">
+     <string>Blocks using floating point operations</string>
+    </property>
+   </action>
+   <action name="actionHex_selected">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Hex</string>
+    </property>
+    <property name="toolTip">
+     <string>Blocks using hexadecimal notation</string>
+    </property>
+   </action>
+  </actiongroup>
+  <actiongroup name="block_selection">
+   <action name="actionSelect_pow">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Pow</string>
+    </property>
+    <property name="toolTip">
+     <string>Place blocks: Top to the power of Bot</string>
+    </property>
+    <property name="shortcut">
+     <string>5</string>
+    </property>
+   </action>
+   <action name="actionSelect_mul">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Mul</string>
+    </property>
+    <property name="toolTip">
+     <string>Place blocks: multiplication</string>
+    </property>
+    <property name="shortcut">
+     <string>3</string>
+    </property>
+   </action>
+   <action name="actionSelect_div">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Div</string>
+    </property>
+    <property name="toolTip">
+     <string>Place blocks: Top divided by Bot</string>
+    </property>
+    <property name="shortcut">
+     <string>4</string>
+    </property>
+   </action>
+   <action name="actionSelect_delete">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../icons/delete.png</normaloff>../../icons/delete.png</iconset>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+    <property name="toolTip">
+     <string>Switch to deleting mode</string>
+    </property>
+   </action>
+   <action name="actionSelect_none">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../cursor.png</normaloff>../../cursor.png</iconset>
+    </property>
+    <property name="text">
+     <string>Select</string>
+    </property>
+    <property name="toolTip">
+     <string>Switch to default cursor</string>
+    </property>
+    <property name="shortcut">
+     <string>Esc</string>
+    </property>
+   </action>
+   <action name="actionSelect_add">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+    <property name="toolTip">
+     <string>Place blocks: sum</string>
+    </property>
+    <property name="shortcut">
+     <string>1</string>
+    </property>
+   </action>
+   <action name="actionSelect_sub">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Sub</string>
+    </property>
+    <property name="toolTip">
+     <string>Place blocks: Top minus Bot</string>
+    </property>
+    <property name="shortcut">
+     <string>2</string>
+    </property>
+   </action>
+  </actiongroup>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

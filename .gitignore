@@ -1,0 +1,11 @@
+# Temporary files
+*~
+src/gui/Makefile
+src/gui/ui_mainwindow.h
+src/gui/moc*
+
+# Object files
+*.o
+
+# Binary file
+blockeditor
