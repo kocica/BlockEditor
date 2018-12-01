@@ -1,3 +1,6 @@
+# Doxygen
+doc/*
+
 # Temporary files
 *~
 src/gui/Makefile
